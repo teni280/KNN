@@ -41,11 +41,22 @@ This notebook demonstrates a simple machine learning pipeline using the k-Neares
 
 ### Instructions
 
+Here's an updated section for installing the required libraries:
+
+### Instructions
+
 1. **Install Required Libraries**:
-   Make sure to install the required libraries if not already installed:
+   Make sure to install the required libraries if not already installed. You can install all necessary libraries using the following command:
    ```bash
    pip install pandas scikit-learn
    ```
+
+   Alternatively, if you'd prefer to specify each package individually:
+   ```bash
+   pip install pandas
+   pip install scikit-learn
+   ```
+   This will ensure that `pandas`, `train_test_split`, `LabelEncoder`, `KNeighborsClassifier`, and all the metrics (`classification_report`, `accuracy_score`, `confusion_matrix`, `precision_score`, `recall_score`, `f1_score`) from the `scikit-learn` library are available in your environment.
 
 2. **Run the Notebook**: 
    Simply run each cell sequentially to load the data, preprocess it, train the model, and evaluate its performance.
